@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<style type="text/css">
+		form
+		{
+			margin-left: 300px;
+			margin-right: 380px;
+			background-color: cadetblue;
+			border-radius: 23px;
+		}
+		input
+		{
+			margin-top: 9px;
+			margin-bottom: 9px;
+			margin-left: 73px;
+		}
+		button
+		{
+			float: right;
+			color: green;
+			border-radius: 12px;
+			margin-left: 100px;
+			font-size: 12px;
+			padding:9px;
+			background-color: red; 
+		}
+	</style>
+	
+	
+</head>
+<body>
+<h2 style="color: blue">Javascript</h2>
+<form>
+	<input type="number" name="n1" placeholder="Enter 1st number" id="n1"><br/>
+	<input type="number" name="n2" placeholder="Enter 2nd number" id="n2"><br/>
+	<input type="submit" onClick="Ad()" value="Submit">
+</form>
+<script type="text/javascript">
+	function Ad()
+	{
+		var x = document.getElementById('n1').value
+		var y = document.getElementById('n2').value
+		// alert('Hi, Welcome:'+x+ 'and your age is:'+y)
+		document.write("Addition:"+(x+y));
+		document.write("Subtraction:"+(x-y));
+		document.write("Multiplication:"+(x*y));
+		document.write("Division:"+(x/y));
+	}
+</script>
+
+</body>
+</html>

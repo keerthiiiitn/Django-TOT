@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/external.css' %}">
+</head>
+<body>
+	
+	<h2>Registration Page</h2><br/>
+	<div class="register">
+		<form>
+			<label><b>User Name</b></label>
+			<input type="text" name="Uname" id="Uname" placeholder="Enter Username"><br><br>
+			<label><b>Email</b></label>
+			<input type="text" name="email" id="email" placeholder="Enter Email"><br><br>
+			<label><b>Password</b></label>
+			<input type="Password" name="Pass" id="Pass" placeholder="Enter Password"><br><br>
+			<label><b>Confirm Password</b></label>
+			<input type="Password" name="Passreset" id="Passreset" placeholder="Reenter Password"><br><br>
+			<input type="button" name="reg" id="reg" value="Register"><br><br>
+		</form>
+	</div>
+</body>
+</html>

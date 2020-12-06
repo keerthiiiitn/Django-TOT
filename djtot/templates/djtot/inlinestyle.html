@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style type="text/css">
+		body  
+		{  
+    		background-color:skyblue;  
+    		font-family: 'Arial';  
+		}  
+		.login
+		{  
+	        width: 300px;  
+	        overflow: hidden;  
+	        margin: auto;   
+	        padding: 50px;  
+	        background: green;  
+	        border-radius: 20px ;  
+        }  
+		h2
+		{  
+		    text-align: center;  
+		    color: black;  
+		    padding: 20px;
+		    margin-bottom: 30px;  
+		}  
+		label{  
+		    color: #08ffd1;  
+		    font-size: 15px;  
+		}  
+		#Uname{  
+		    width: 250px;  
+		    height: 20px;  
+		    border: none;  
+		    border-radius: 3px;  
+		    padding-left: 8px;  
+			}  
+		#Pass{  
+		    width: 250px;  
+		    height: 20px;  
+		    border: none;  
+		    border-radius: 3px;  
+		    padding-left: 8px;  
+		    }  
+		#log{  
+		    width: 250px;  
+		    height: 20px;  
+		    border: none;  
+		    border-radius: 15px;  
+		    background-color: blue;  
+		    color: white;  
+ 		}  
+		span{  
+		    color: white;  
+		    font-size: 15px;  
+		}  
+		a{  
+		    float: right;
+		    color:white;
+		    font-size: 17px  
+		}  
+	</style>
+</head>
+<body>
+	<h2>Login Page</h2><br/>
+	<div class="login">
+		<form>
+			<label><b>User Name</b></label>
+			<input type="text" name="Uname" id="Uname" placeholder="Enter Username"><br><br>
+			<label><b>Password</b></label>
+			<input type="Password" name="Pass" id="Pass" placeholder="Enter Password"><br><br>
+			<input type="button" name="log" id="log" value="Login"><br><br>
+			<input type="checkbox" id="check"><span>Remember me</span><a href="#">Forgot Password</a>
+		</form>
+	</div>
+</body>
+</html>

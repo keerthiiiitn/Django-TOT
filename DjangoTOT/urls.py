@@ -31,4 +31,6 @@ urlpatterns = [
     path('inline/',views.sample),
     path('login/',views.loginpage),
     path('registration/',views.registrationpage),
+    path('javascript/',views.jasex),
+    path('jstask/',views.jstask),
 ]
